@@ -1,0 +1,101 @@
+.gettingAccess_section {
+    padding: 0 16px;
+    transform: translateY(45%);
+    .gettingAccess_card {
+        background-color: #202a3c;
+        padding: 30px;
+        border-radius: 10px;
+        color: hsl(0, 0%, 100%);
+        max-width: 700px;
+        margin: auto;
+        .title {
+            font-family: "Raleway_Bold";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .parg {
+            text-align: center;
+            font-family: "OpenSans_Regular";
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 500;
+            font-style: normal;
+            max-width: 620px;
+            margin: auto;
+            margin-bottom: 30px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .email {
+                outline: none;
+                background-color: hsl(0, 0%, 100%);
+                padding-left: 26px;
+                padding-bottom: 16px;
+                padding-top: 16px;
+                padding-right: 50px;
+                border-radius: 30px;
+                font-family: "OpenSans_Regular";
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: normal;
+                font-style: normal;
+                color: gray;
+                margin-bottom: 30px;
+                border: none;
+            }
+            .submit_Btn {
+                border-radius: 20px;
+                background-color: hsl(198, 60%, 50%);
+                padding: 16px 50px;
+                border-radius: 30px;
+                font-family: "Raleway_Bold";
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 700;
+                font-style: normal;
+                color: white;
+                white-space: nowrap;
+            }
+            .submit_Btn:hover {
+                background-color: hsl(176, 68%, 64%);
+                transition: 1s;
+            }
+        }
+    }
+}
+
+@media(min-width: 720px) {
+    .gettingAccess_section {
+        padding: 0;
+        max-width: 80%;
+        margin: auto;
+        .gettingAccess_card {
+            .title {
+                font-size: 28px;
+                line-height: 39px;
+            }
+            .parg {
+                font-size: 16px;
+                line-height: 26px;
+                max-width: 680px;
+                margin: auto;
+                margin-bottom: 20px;
+            }
+            form {
+                display: flex;
+                flex-direction: row;
+                align-items: baseline;
+                justify-content: space-between;
+                gap: 20px;
+                .email {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

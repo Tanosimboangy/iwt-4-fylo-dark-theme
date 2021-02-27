@@ -1,0 +1,80 @@
+.team_section {
+    color: white;
+    padding: 0 24px;
+    margin-bottom: 100px;
+    article {
+        padding: 20px;
+        background-color: hsl(219, 30%, 18%);
+        border-radius: 10px;
+        max-width: 284px;
+        margin: auto;
+        margin-bottom: 30px;
+        p {
+            text-align: left;
+            font-family: "OpenSans_Regular";
+            font-size: 13px;
+            line-height: 20px;
+            font-weight: 500;
+            font-style: normal;
+            margin-bottom: 30px;
+        }
+        .profile_card {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .profile {
+                img {
+                    width: 30px;
+                    border-radius: 50%;
+                    margin-right: 15px;
+                }
+            }
+            .personal_identity {
+                .name {
+                    font-family: "Raleway_Bold";
+                    font-size: 14px;
+                    line-height: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                }
+                small {
+                    font-family: "OpenSans_Regular";
+                    font-size: 12px;
+                    font-weight: 500;
+                    font-style: normal;
+                }
+            }
+        }
+    }
+    article:hover {
+        box-shadow: 4px 4px 8px black;
+    }
+}
+
+@media(min-width: 720px) {
+    .team_section {
+        max-width: 90%;
+        margin: auto;
+        padding: 0;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+        article {
+            padding: 30px;
+            background-color: hsl(219, 30%, 18%);
+            border-radius: 10px;
+            max-width: 324px;
+            margin: auto;
+            margin-bottom: 30px;
+            p {
+                font-size: 15px;
+                line-height: 24px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

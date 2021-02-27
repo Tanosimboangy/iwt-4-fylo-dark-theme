@@ -1,11 +1,94 @@
 .productivity_section {
-.productivity_image {
-    width: 90%;
-    margin: auto;
-    margin-bottom: 30px;
-}
-.productivity_details {
-    fon
+    padding: 0 16px;
+    color: white;
+    margin-bottom: 100px;
+    .productivity_image {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .productivity_details {
+        h2 {
+            font-family: "Raleway_Bold";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        p {
+            text-align: left;
+            font-family: "OpenSans_Regular";
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 500;
+            font-style: normal;
+            max-width: 500px;
+            margin-right: auto;
+        }
+        .productivity_firstparg {
+            margin-bottom: 20px;
+        }
+        .productivity_secondparg {
+            margin-bottom: 30px;
+        }
+        .productivity_link {
+            color: hsl(176, 68%, 64%);
+            text-align: left;
+            font-family: "OpenSans_Regular";
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 500;
+            font-style: normal;
+            text-decoration: hsl(176, 68%, 64%);
+            text-decoration: tomato;
+            // not yet finished
+        }
+    }
 }
 
+@media(min-width: 720px) {
+    .productivity_section {
+        max-width: 90%;
+        margin: auto;
+        padding: 0;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5%;
+        .productivity_image {
+            width: 60%;
+            margin-right: auto;
+            margin-bottom: 30px;
+        }
+        .productivity_details {
+            h2 {
+                max-width: 240px;
+                margin-right: auto;
+                font-size: 28px;
+                line-height: 39px;
+            }
+            p {
+                max-width: 500;
+                margin-left: auto;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+}
+
+@media(min-width: 1440px) {
+    .productivity_section {
+        max-width: 90%;
+        margin: auto;
+        padding: 0;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5%;
+    }
 }

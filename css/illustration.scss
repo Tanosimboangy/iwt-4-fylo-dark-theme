@@ -21,16 +21,38 @@
             text-align: center;
             font-family: "OpenSans_Regular";
             font-size: 14px;
-            line-height: 26px;
+            line-height: 22px;
             font-weight: 500;
             font-style: normal;
-            max-width: 300px;
+            max-width: 360px;
             margin: auto;
         }
     }
 }
 
 @media(min-width: 720px) {
+    .illustration_section {
+        max-width: 80%;
+        margin: auto;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 100px;
+        column-gap: 20px;
+        article {
+            h2 {
+                font-size: 28px;
+                line-height: 39px;
+            }
+            p {
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+}
+
+@media(min-width: 1440px) {
     .illustration_section {
         max-width: 80%;
         margin: auto;

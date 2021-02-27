@@ -131,7 +131,7 @@ body button {
   border-radius: 30px;
   font-family: "Raleway_Bold";
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
   font-weight: 700;
   font-style: normal;
   color: white;
@@ -199,10 +199,10 @@ body button {
   text-align: center;
   font-family: "OpenSans_Regular";
   font-size: 14px;
-  line-height: 26px;
+  line-height: 22px;
   font-weight: 500;
   font-style: normal;
-  max-width: 300px;
+  max-width: 360px;
   margin: auto;
 }
 
@@ -215,6 +215,433 @@ body button {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 100px;
     column-gap: 20px;
+  }
+  .illustration_section article h2 {
+    font-size: 28px;
+    line-height: 39px;
+  }
+  .illustration_section article p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media (min-width: 1440px) {
+  .illustration_section {
+    max-width: 80%;
+    margin: auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 100px;
+    column-gap: 20px;
+  }
+}
+.productivity_section {
+  padding: 0 16px;
+  color: white;
+  margin-bottom: 100px;
+}
+.productivity_section .productivity_image {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.productivity_section .productivity_details h2 {
+  font-family: "Raleway_Bold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.productivity_section .productivity_details p {
+  text-align: left;
+  font-family: "OpenSans_Regular";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  font-style: normal;
+  max-width: 500px;
+  margin-right: auto;
+}
+.productivity_section .productivity_details .productivity_firstparg {
+  margin-bottom: 20px;
+}
+.productivity_section .productivity_details .productivity_secondparg {
+  margin-bottom: 30px;
+}
+.productivity_section .productivity_details .productivity_link {
+  color: #65e2d9;
+  text-align: left;
+  font-family: "OpenSans_Regular";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: #65e2d9;
+  text-decoration: tomato;
+}
+
+@media (min-width: 720px) {
+  .productivity_section {
+    max-width: 90%;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+  }
+  .productivity_section .productivity_image {
+    width: 60%;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .productivity_section .productivity_details h2 {
+    max-width: 240px;
+    margin-right: auto;
+    font-size: 28px;
+    line-height: 39px;
+  }
+  .productivity_section .productivity_details p {
+    max-width: 500;
+    margin-left: auto;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+@media (min-width: 1440px) {
+  .productivity_section {
+    max-width: 90%;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5%;
+  }
+}
+.team_section {
+  color: white;
+  padding: 0 24px;
+  margin-bottom: 100px;
+}
+.team_section article {
+  padding: 20px;
+  background-color: #202a3c;
+  border-radius: 10px;
+  max-width: 284px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.team_section article p {
+  text-align: left;
+  font-family: "OpenSans_Regular";
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+.team_section article .profile_card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.team_section article .profile_card .profile img {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.team_section article .profile_card .personal_identity .name {
+  font-family: "Raleway_Bold";
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+.team_section article .profile_card .personal_identity small {
+  font-family: "OpenSans_Regular";
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+}
+.team_section article:hover {
+  box-shadow: 4px 4px 8px black;
+}
+
+@media (min-width: 720px) {
+  .team_section {
+    max-width: 90%;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .team_section article {
+    padding: 30px;
+    background-color: #202a3c;
+    border-radius: 10px;
+    max-width: 324px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .team_section article p {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+.gettingAccess_section {
+  padding: 0 16px;
+  transform: translateY(45%);
+}
+.gettingAccess_section .gettingAccess_card {
+  background-color: #202a3c;
+  padding: 30px;
+  border-radius: 10px;
+  color: white;
+  max-width: 700px;
+  margin: auto;
+}
+.gettingAccess_section .gettingAccess_card .title {
+  font-family: "Raleway_Bold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.gettingAccess_section .gettingAccess_card .parg {
+  text-align: center;
+  font-family: "OpenSans_Regular";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  font-style: normal;
+  max-width: 620px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.gettingAccess_section .gettingAccess_card form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gettingAccess_section .gettingAccess_card form .email {
+  outline: none;
+  background-color: white;
+  padding-left: 26px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-right: 50px;
+  border-radius: 30px;
+  font-family: "OpenSans_Regular";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal;
+  font-style: normal;
+  color: gray;
+  margin-bottom: 30px;
+  border: none;
+}
+.gettingAccess_section .gettingAccess_card form .submit_Btn {
+  border-radius: 20px;
+  background-color: #339ecc;
+  padding: 16px 50px;
+  border-radius: 30px;
+  font-family: "Raleway_Bold";
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  white-space: nowrap;
+}
+.gettingAccess_section .gettingAccess_card form .submit_Btn:hover {
+  background-color: #65e2d9;
+  transition: 1s;
+}
+
+@media (min-width: 720px) {
+  .gettingAccess_section {
+    padding: 0;
+    max-width: 80%;
+    margin: auto;
+  }
+  .gettingAccess_section .gettingAccess_card .title {
+    font-size: 28px;
+    line-height: 39px;
+  }
+  .gettingAccess_section .gettingAccess_card .parg {
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 680px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .gettingAccess_section .gettingAccess_card form {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .gettingAccess_section .gettingAccess_card form .email {
+    width: 100%;
+  }
+}
+.footer {
+  background-color: #0b1523;
+  padding-top: 240px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-bottom: 30px;
+}
+.footer div .footer_logo {
+  padding-left: 10px;
+  width: 150px;
+  margin-bottom: 40px;
+}
+.footer div .footer_container .footer_location {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+.footer div .footer_container .footer_location .location_logo {
+  margin-right: 20px;
+}
+.footer div .footer_container .footer_location .location_parg {
+  text-align: left;
+  font-family: "OpenSans_Regular";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  max-width: 255px;
+}
+.footer div .footer_container .footer_contacts {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.footer div .footer_container .footer_contacts .phone {
+  margin-bottom: 20px;
+  font-family: "OpenSans_Regular";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  color: white;
+}
+.footer div .footer_container .footer_contacts .phone .phone_icon {
+  margin-right: 20px;
+}
+.footer div .footer_container .footer_contacts .email {
+  font-family: "OpenSans_Regular";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+  color: white;
+}
+.footer div .footer_container .footer_contacts .email .email_icon {
+  margin-right: 20px;
+}
+.footer div .footer_container .footer_contacts a:hover span {
+  color: blue;
+}
+.footer div .footer_container .footer_navigation {
+  display: flex;
+  flex-direction: column;
+}
+.footer div .footer_container .footer_navigation ul li {
+  margin-bottom: 10px;
+}
+.footer div .footer_container .footer_navigation ul li a:hover {
+  color: blue;
+}
+.footer div .footer_container .footer_navigation .first_link--lists {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer div .footer_container .footer_navigation .first_link--lists li a {
+  color: white;
+  font-family: "OpenSans_Regular";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+}
+.footer div .footer_container .footer_navigation .second_link--lists {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer div .footer_container .footer_navigation .second_link--lists li a {
+  color: white;
+  font-family: "OpenSans_Regular";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+}
+.footer div .footer_container .footer_links .footer_links--lists {
+  display: flex;
+  flex-direction: row;
+}
+.footer div .footer_container .footer_links .footer_links--lists li a {
+  color: white;
+  font-family: "OpenSans_Regular";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  font-style: normal;
+  text-align: left;
+}
+.footer div .footer_container .footer_links .footer_links--lists li:not(:last-of-type) {
+  margin-right: 20px;
+}
+
+@media (min-width: 720px) {
+  .footer div {
+    max-width: 90%;
+    margin: auto;
+  }
+  .footer div .footer_logo {
+    padding-left: 10px;
+    width: 150px;
+    margin-bottom: 40px;
+  }
+  .footer div .footer_container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer div .footer_container .footer_navigation {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    justify-content: space-between;
   }
 }
 
