@@ -17,11 +17,15 @@
         li {
             a {
                 color: hsl(0, 0%, 100%);
-                // font-family: Arial, Helvetica, sans-serif;
+                font-family: "OpenSans_Regular";
                 font-size: 14px;
-                line-height: 20px;
+                line-height: 22px;
+                font-weight: 500;
                 font-style: normal;
-                font-weight: normal;
+                white-space: nowrap;
+            }
+            a:hover {
+                text-decoration: underline;
             }
         }
         li:not(:last-of-type) {
@@ -33,10 +37,24 @@
 @media(min-width: 720px) {
     .header {
         padding: 0;
-        padding-top: 30px;
+        padding-top: 50px;
         max-width: 80%;
         margin: auto;
         margin-bottom: 100px;
+        .header_navigation--lists {
+            li {
+                a {
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+                a:hover {
+                    font-weight: bolder;
+                }
+            }
+            li:not(:last-of-type) {
+                padding-right: 40px;
+            }
+        }
     }
 }
 

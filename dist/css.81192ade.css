@@ -67,10 +67,15 @@ body button {
 }
 .header .header_navigation--lists li a {
   color: white;
+  font-family: "OpenSans_Regular";
   font-size: 14px;
-  line-height: 20px;
+  line-height: 22px;
+  font-weight: 500;
   font-style: normal;
-  font-weight: normal;
+  white-space: nowrap;
+}
+.header .header_navigation--lists li a:hover {
+  text-decoration: underline;
 }
 .header .header_navigation--lists li:not(:last-of-type) {
   padding-right: 20px;
@@ -79,10 +84,20 @@ body button {
 @media (min-width: 720px) {
   .header {
     padding: 0;
-    padding-top: 30px;
+    padding-top: 50px;
     max-width: 80%;
     margin: auto;
     margin-bottom: 100px;
+  }
+  .header .header_navigation--lists li a {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .header .header_navigation--lists li a:hover {
+    font-weight: bolder;
+  }
+  .header .header_navigation--lists li:not(:last-of-type) {
+    padding-right: 40px;
   }
 }
 @media (min-width: 1440px) {
@@ -506,21 +521,21 @@ body button {
   padding-right: 18px;
   padding-bottom: 30px;
 }
-.footer div .footer_logo {
+.footer .footer_bloc .footer_logo {
   padding-left: 10px;
   width: 150px;
   margin-bottom: 40px;
 }
-.footer div .footer_container .footer_location {
+.footer .footer_bloc .footer_container .footer_location {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   margin-bottom: 40px;
 }
-.footer div .footer_container .footer_location .location_logo {
+.footer .footer_bloc .footer_container .footer_location .location_logo {
   margin-right: 20px;
 }
-.footer div .footer_container .footer_location .location_parg {
+.footer .footer_bloc .footer_container .footer_location .location_parg {
   text-align: left;
   font-family: "OpenSans_Regular";
   font-size: 14px;
@@ -530,12 +545,12 @@ body button {
   color: white;
   max-width: 255px;
 }
-.footer div .footer_container .footer_contacts {
+.footer .footer_bloc .footer_container .footer_contacts {
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
 }
-.footer div .footer_container .footer_contacts .phone {
+.footer .footer_bloc .footer_container .footer_contacts .phone {
   margin-bottom: 20px;
   font-family: "OpenSans_Regular";
   font-size: 14px;
@@ -545,10 +560,10 @@ body button {
   text-align: left;
   color: white;
 }
-.footer div .footer_container .footer_contacts .phone .phone_icon {
+.footer .footer_bloc .footer_container .footer_contacts .phone .phone_icon {
   margin-right: 20px;
 }
-.footer div .footer_container .footer_contacts .email {
+.footer .footer_bloc .footer_container .footer_contacts .email {
   font-family: "OpenSans_Regular";
   font-size: 14px;
   line-height: 22px;
@@ -557,29 +572,29 @@ body button {
   text-align: left;
   color: white;
 }
-.footer div .footer_container .footer_contacts .email .email_icon {
+.footer .footer_bloc .footer_container .footer_contacts .email .email_icon {
   margin-right: 20px;
 }
-.footer div .footer_container .footer_contacts a:hover span {
+.footer .footer_bloc .footer_container .footer_contacts a:hover span {
   color: blue;
 }
-.footer div .footer_container .footer_navigation {
+.footer .footer_bloc .footer_container .footer_navigation {
   display: flex;
   flex-direction: column;
 }
-.footer div .footer_container .footer_navigation ul li {
+.footer .footer_bloc .footer_container .footer_navigation ul li {
   margin-bottom: 10px;
 }
-.footer div .footer_container .footer_navigation ul li a:hover {
-  color: blue;
+.footer .footer_bloc .footer_container .footer_navigation ul li a:hover {
+  font-weight: bolder;
 }
-.footer div .footer_container .footer_navigation .first_link--lists {
+.footer .footer_bloc .footer_container .footer_navigation .first_link--lists {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.footer div .footer_container .footer_navigation .first_link--lists li a {
+.footer .footer_bloc .footer_container .footer_navigation .first_link--lists li a {
   color: white;
   font-family: "OpenSans_Regular";
   font-size: 14px;
@@ -587,14 +602,15 @@ body button {
   font-weight: 500;
   font-style: normal;
   text-align: left;
+  white-space: nowrap;
 }
-.footer div .footer_container .footer_navigation .second_link--lists {
+.footer .footer_bloc .footer_container .footer_navigation .second_link--lists {
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.footer div .footer_container .footer_navigation .second_link--lists li a {
+.footer .footer_bloc .footer_container .footer_navigation .second_link--lists li a {
   color: white;
   font-family: "OpenSans_Regular";
   font-size: 14px;
@@ -602,12 +618,13 @@ body button {
   font-weight: 500;
   font-style: normal;
   text-align: left;
+  white-space: nowrap;
 }
-.footer div .footer_container .footer_links .footer_links--lists {
+.footer .footer_bloc .footer_container .footer_links .footer_links--lists {
   display: flex;
   flex-direction: row;
 }
-.footer div .footer_container .footer_links .footer_links--lists li a {
+.footer .footer_bloc .footer_container .footer_links .footer_links--lists li a {
   color: white;
   font-family: "OpenSans_Regular";
   font-size: 14px;
@@ -616,32 +633,48 @@ body button {
   font-style: normal;
   text-align: left;
 }
-.footer div .footer_container .footer_links .footer_links--lists li:not(:last-of-type) {
+.footer .footer_bloc .footer_container .footer_links .footer_links--lists li a:hover {
+  font-weight: bolder;
+}
+.footer .footer_bloc .footer_container .footer_links .footer_links--lists li:not(:last-of-type) {
   margin-right: 20px;
 }
 
 @media (min-width: 720px) {
-  .footer div {
+  .footer .footer_bloc {
     max-width: 90%;
     margin: auto;
   }
-  .footer div .footer_logo {
+  .footer .footer_bloc .footer_logo {
     padding-left: 10px;
     width: 150px;
     margin-bottom: 40px;
   }
-  .footer div .footer_container {
+  .footer .footer_bloc .footer_container {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
     justify-content: space-between;
     flex-wrap: wrap;
   }
-  .footer div .footer_container .footer_navigation {
+  .footer .footer_bloc .footer_container .footer_location {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .footer .footer_bloc .footer_container .footer_contacts {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .footer .footer_bloc .footer_container .footer_navigation {
     display: flex;
     flex-direction: row;
-    align-self: flex-start;
     justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    gap: 50%;
+  }
+  .footer .footer_bloc .footer_container .footer_links {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 
