@@ -1,0 +1,43 @@
+.illustration_section {
+    padding: 0 16px;
+    margin-bottom: 100px;
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px;
+        color: hsl(0, 0%, 100%);
+        img {
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-family: "Raleway_Bold";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        p {
+            text-align: center;
+            font-family: "OpenSans_Regular";
+            font-size: 14px;
+            line-height: 26px;
+            font-weight: 500;
+            font-style: normal;
+            max-width: 300px;
+            margin: auto;
+        }
+    }
+}
+
+@media(min-width: 720px) {
+    .illustration_section {
+        max-width: 80%;
+        margin: auto;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 100px;
+        column-gap: 20px;
+    }
+}

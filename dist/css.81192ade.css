@@ -105,7 +105,7 @@ body button {
 .masthead .masthead_image {
   width: 90%;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .masthead .masthead_title {
   text-align: center;
@@ -114,7 +114,7 @@ body button {
   font-family: "Raleway_Bold";
   font-weight: 700;
   font-style: normal;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .masthead .masthead_parg {
   text-align: center;
@@ -123,7 +123,7 @@ body button {
   font-family: "OpenSans_Regular";
   font-weight: 500;
   font-style: normal;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .masthead .masthead_getStartedBtn {
   background-color: #65e2d9;
@@ -143,7 +143,7 @@ body button {
 
 @media (min-width: 720px) {
   .masthead {
-    margin: 80%;
+    margin: 70%;
     margin: auto;
     padding: 0;
     margin-bottom: 100px;
@@ -151,27 +151,70 @@ body button {
   .masthead .masthead_image {
     width: 50%;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .masthead .masthead_title {
     font-size: 36px;
     line-height: 45px;
     max-width: 620px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .masthead .masthead_parg {
     max-width: 500px;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 @media (min-width: 1440pxpx) {
   .masthead {
-    margin: 80%;
+    margin: 70%;
     margin: auto;
     padding: 0;
     margin-bottom: 100px;
+  }
+}
+.illustration_section {
+  padding: 0 16px;
+  margin-bottom: 100px;
+}
+.illustration_section article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+  color: white;
+}
+.illustration_section article img {
+  margin-bottom: 30px;
+}
+.illustration_section article h2 {
+  font-family: "Raleway_Bold";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.illustration_section article p {
+  text-align: center;
+  font-family: "OpenSans_Regular";
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 500;
+  font-style: normal;
+  max-width: 300px;
+  margin: auto;
+}
+
+@media (min-width: 720px) {
+  .illustration_section {
+    max-width: 80%;
+    margin: auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 100px;
+    column-gap: 20px;
   }
 }
 

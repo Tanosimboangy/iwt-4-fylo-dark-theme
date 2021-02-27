@@ -9,7 +9,7 @@
     .masthead_image {
         width: 90%;
         margin: auto;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .masthead_title {
         text-align: center;
@@ -18,7 +18,7 @@
         font-family: 'Raleway_Bold';
         font-weight: 700;
         font-style: normal;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .masthead_parg {
         text-align: center;
@@ -27,7 +27,7 @@
         font-family: 'OpenSans_Regular';
         font-weight: 500;
         font-style: normal;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .masthead_getStartedBtn {
         background-color: hsl(176, 68%, 64%);
@@ -48,33 +48,33 @@
 
 @media(min-width: 720px) {
     .masthead {
-        margin: 80%;
+        margin: 70%;
         margin: auto;
         padding: 0;
         margin-bottom: 100px;
         .masthead_image {
             width: 50%;
             margin: auto;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
         .masthead_title {
             font-size: 36px;
             line-height: 45px;
             max-width: 620px;
             margin: auto;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
         .masthead_parg {
             max-width: 500px;
             margin: auto;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
     }
 }
 
 @media(min-width: 1440pxpx) {
     .masthead {
-        margin: 80%;
+        margin: 70%;
         margin: auto;
         padding: 0;
         margin-bottom: 100px;
