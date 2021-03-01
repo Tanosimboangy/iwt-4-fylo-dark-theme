@@ -126,9 +126,20 @@
                             font-weight: 500;
                             font-style: normal;
                             text-align: left;
+                            border: 1px solid white;
+                            border-radius: 50%;
+                            padding: 20px;
+                            svg {
+                                background-color: hsl(216, 53%, 9%);
+                                width: 20px;
+                                height: 20px;
+                            }
                         }
                         a:hover {
-                            font-weight: bolder;
+                            border: 1px solid #65e2d9;
+                            svg {
+                                fill: #65e2d9;
+                            }
                         }
                     }
                     li:not(:last-of-type) {
