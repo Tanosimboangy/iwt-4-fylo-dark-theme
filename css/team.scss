@@ -46,6 +46,15 @@
             }
         }
     }
+    .satish_artile {
+        position: relative;
+        .bg_quotes {
+            position: absolute;
+            top: -24px;
+            left: 10px;
+            width: 30px;
+        }
+    }
     article:hover {
         box-shadow: 4px 4px 8px black;
     }
@@ -67,6 +76,8 @@
             padding: 30px;
             background-color: hsl(219, 30%, 18%);
             border-radius: 10px;
+            max-width: 320px;
+            margin: auto;
             margin-bottom: 30px;
             p {
                 font-size: 15px;

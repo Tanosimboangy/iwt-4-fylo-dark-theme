@@ -427,6 +427,15 @@ body button {
   font-weight: 500;
   font-style: normal;
 }
+.team_section .satish_artile {
+  position: relative;
+}
+.team_section .satish_artile .bg_quotes {
+  position: absolute;
+  top: -24px;
+  left: 10px;
+  width: 30px;
+}
 .team_section article:hover {
   box-shadow: 4px 4px 8px black;
 }
@@ -448,6 +457,8 @@ body button {
     padding: 30px;
     background-color: #202a3c;
     border-radius: 10px;
+    max-width: 320px;
+    margin: auto;
     margin-bottom: 30px;
   }
   .team_section article p {
