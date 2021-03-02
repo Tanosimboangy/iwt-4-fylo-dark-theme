@@ -39,9 +39,17 @@
             line-height: 22px;
             font-weight: 500;
             font-style: normal;
-            text-decoration: hsl(176, 68%, 64%);
-            text-decoration: tomato;
-            // not yet finished
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 155px;
+            padding-bottom: 5px;
+            img {
+                margin-left: 10px;
+            }
+        }
+        .productivity_link:hover {
+            border-bottom: 1px solid hsl(176, 68%, 64%);
         }
     }
 }

@@ -326,8 +326,17 @@ body button {
   line-height: 22px;
   font-weight: 500;
   font-style: normal;
-  text-decoration: #65e2d9;
-  text-decoration: tomato;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 155px;
+  padding-bottom: 5px;
+}
+.productivity_section .productivity_details .productivity_link img {
+  margin-left: 10px;
+}
+.productivity_section .productivity_details .productivity_link:hover {
+  border-bottom: 1px solid #65e2d9;
 }
 
 @media (min-width: 720px) {
