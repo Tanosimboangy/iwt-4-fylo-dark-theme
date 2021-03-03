@@ -6,15 +6,25 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        flex-wrap: wrap;
+        @media(max-width: 410px) {
+            gap: 5%;
+        }
         .header_logo {
-            width: 180px;
+            img {
+                width: 180px;
+            }
+            @media(max-width: 410px) {
+                img {
+                    width: 90px;
+                }
+            }
         }
         .header_navigation--lists {
             display: flex;
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+            flex-wrap: wrap;
             li {
                 a {
                     color: hsl(0, 0%, 100%);
