@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+})({"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -149,7 +149,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -184,12 +184,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/index.scss":[function(require,module,exports) {
+},{"./bundle-url":"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"css/index.scss":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\fonts\\Raleway-Regular.woff2":[["Raleway-Regular.4b627e04.woff2","fonts/Raleway-Regular.woff2"],"fonts/Raleway-Regular.woff2"],"./..\\fonts\\Raleway-Regular.woff":[["Raleway-Regular.1ae1ecd6.woff","fonts/Raleway-Regular.woff"],"fonts/Raleway-Regular.woff"],"./..\\fonts\\Raleway-Bold.woff2":[["Raleway-Bold.37d3649d.woff2","fonts/Raleway-Bold.woff2"],"fonts/Raleway-Bold.woff2"],"./..\\fonts\\Raleway-Bold.woff":[["Raleway-Bold.946586da.woff","fonts/Raleway-Bold.woff"],"fonts/Raleway-Bold.woff"],"./..\\fonts\\OpenSans-Bold.woff2":[["OpenSans-Bold.e2e672bd.woff2","fonts/OpenSans-Bold.woff2"],"fonts/OpenSans-Bold.woff2"],"./..\\fonts\\OpenSans-Bold.woff":[["OpenSans-Bold.ef4dedc9.woff","fonts/OpenSans-Bold.woff"],"fonts/OpenSans-Bold.woff"],"./..\\fonts\\OpenSans-Regular.woff2":[["OpenSans-Regular.dfa32dce.woff2","fonts/OpenSans-Regular.woff2"],"fonts/OpenSans-Regular.woff2"],"./..\\fonts\\OpenSans-Regular.woff":[["OpenSans-Regular.5d698a25.woff","fonts/OpenSans-Regular.woff"],"fonts/OpenSans-Regular.woff"],"_css_loader":"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./..\\fonts\\Raleway-Regular.woff2":[["Raleway-Regular.4b627e04.woff2","fonts/Raleway-Regular.woff2"],"fonts/Raleway-Regular.woff2"],"./..\\fonts\\Raleway-Regular.woff":[["Raleway-Regular.1ae1ecd6.woff","fonts/Raleway-Regular.woff"],"fonts/Raleway-Regular.woff"],"./..\\fonts\\Raleway-Bold.woff2":[["Raleway-Bold.37d3649d.woff2","fonts/Raleway-Bold.woff2"],"fonts/Raleway-Bold.woff2"],"./..\\fonts\\Raleway-Bold.woff":[["Raleway-Bold.946586da.woff","fonts/Raleway-Bold.woff"],"fonts/Raleway-Bold.woff"],"./..\\fonts\\OpenSans-Bold.woff2":[["OpenSans-Bold.e2e672bd.woff2","fonts/OpenSans-Bold.woff2"],"fonts/OpenSans-Bold.woff2"],"./..\\fonts\\OpenSans-Bold.woff":[["OpenSans-Bold.ef4dedc9.woff","fonts/OpenSans-Bold.woff"],"fonts/OpenSans-Bold.woff"],"./..\\fonts\\OpenSans-Regular.woff2":[["OpenSans-Regular.dfa32dce.woff2","fonts/OpenSans-Regular.woff2"],"fonts/OpenSans-Regular.woff2"],"./..\\fonts\\OpenSans-Regular.woff":[["OpenSans-Regular.5d698a25.woff","fonts/OpenSans-Regular.woff"],"fonts/OpenSans-Regular.woff"],"_css_loader":"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51416" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64099" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -393,5 +393,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
 //# sourceMappingURL=/css.81192ade.js.map

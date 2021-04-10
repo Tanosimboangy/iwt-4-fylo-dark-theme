@@ -1,23 +1,23 @@
 // Headings, Call-to-actions, Header Navigation
 @font-face {
     font-family: "Raleway_Regular";
-    src: local(Raleway_Regular), url(../fonts/Raleway-Regular.woff2) format("woff2"), url(../fonts/Raleway-Regular.woff) format("woff"),
+    src: local(Raleway_Regular), url(../fonts/Raleway-Regular.woff2) format("woff2"), url(../fonts/Raleway-Regular.woff) format("woff");
 }
 
 @font-face {
     font-family: "Raleway_Bold";
-    src: local(Raleway_Bold), url(../fonts/Raleway-Bold.woff2) format("woff2"), url(../fonts/Raleway-Bold.woff) format("woff"),
+    src: local(Raleway_Bold), url(../fonts/Raleway-Bold.woff2) format("woff2"), url(../fonts/Raleway-Bold.woff) format("woff");
 }
 
 // Body
 @font-face {
     font-family: "OpenSans_Bold";
-    src: local(OpenSans_Bold), url(../fonts/OpenSans-Bold.woff2) format("woff2"), url(../fonts/OpenSans-Bold.woff) format("woff"),
+    src: local(OpenSans_Bold), url(../fonts/OpenSans-Bold.woff2) format("woff2"), url(../fonts/OpenSans-Bold.woff) format("woff");
 }
 
 @font-face {
     font-family: "OpenSans_Regular";
-    src: local(OpenSans_Regular), url(../fonts/OpenSans-Regular.woff2) format("woff2"), url(../fonts/OpenSans-Regular.woff) format("woff"),
+    src: local(OpenSans_Regular), url(../fonts/OpenSans-Regular.woff2) format("woff2"), url(../fonts/OpenSans-Regular.woff) format("woff");
 }
 
 body {
@@ -53,7 +53,7 @@ body {
     }
 }
 
-@media(min-width: 720px) {
+@media (min-width: 720px) {
     .header {
         max-width: 720px;
         margin: auto;
@@ -68,7 +68,7 @@ body {
     // }
 }
 
-@media(min-width: 920px) {
+@media (min-width: 920px) {
     .header {
         max-width: 920px;
         margin: auto;
@@ -83,7 +83,7 @@ body {
     // }
 }
 
-@media(min-width: 1120px) {
+@media (min-width: 1120px) {
     .header {
         max-width: 1120px;
         margin: auto;
@@ -98,7 +98,7 @@ body {
     // }
 }
 
-@media(min-width: 1320px) {
+@media (min-width: 1320px) {
     .header {
         max-width: 1320px;
         margin: auto;
